@@ -1,0 +1,99 @@
+/* Styles de base */
+body {
+    font-family: 'VT323', monospace;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #2a0354, #0d021f);
+    color: #fff;
+    overflow-x: hidden;
+}
+
+/* En-tête */
+.synthwave-header {
+    background-image:url(80s\ image.jpg);
+    text-align: center;
+    padding: 2rem 0;
+    box-shadow: 0 0 15px #ff0080;
+}
+
+.synthwave-header h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 0 0 10px #ff0080, 0 0 20px #8000ff, 0 0 30px #ff00ff;
+    margin: 0;
+}
+
+.synthwave-header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.synthwave-header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+.synthwave-header nav ul li a:hover {
+    color: #ff0080;
+    text-shadow: 0 0 10px #ff0080;
+}
+
+/* Sections */
+.synthwave-section {
+    padding: 3rem 0;
+    text-align: center;
+    background: linear-gradient(180deg, #0d021f, #2a0354);
+    box-shadow: inset 0 0 15px #8000ff;
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #3fddf1;
+    text-shadow: 0 0 10px #1a85e9, 0 0 20px #8000ff;
+}
+
+.projects {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    background: linear-gradient(135deg, #8000ff, #ff00ff);
+    padding: 1rem;
+    border: 2px solid #ff0080;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 0 15px #ff00ff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px #ff00ff;
+}
+
+/* Pied de page */
+.synthwave-footer {
+    background: linear-gradient(90deg, #8000ff, #ff00ff, #ff0080);
+    text-align: center;
+    padding: 1.5rem 0;
+    box-shadow: 0 0 15px #8000ff;
+}
+
+.synthwave-footer p {
+    font-size: 0.9rem;
+    color: #fff;
+    margin: 0;
+}
